@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="mdl/material.min.css">
+  <link rel="stylesheet" href="css/popup.css">
+  <script src="mdl/material.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script type="text/javascript" src="js/web3.min.js"></script>
+  <script src="js/popup.js"></script>
+</head>
+
+<body>
+  <h3>DCA</h3>
+  <!-- <input type="text" size="50" id="address" /> -->
+  <form action="#">
+    <div class="mdl-textfield mdl-js-textfield">
+      <input class="mdl-textfield__input" type="text" id="address">
+      <label class="mdl-textfield__label" for="address">Address...</label>
+    </div>
+  </form>
+  <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" type="button" id="balance">
+    Get Balance
+  </button>
+  <br />
+  <br />
+  <div id="output"></div>
+</body>
+</html>

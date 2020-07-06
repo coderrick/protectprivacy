@@ -1,0 +1,13 @@
+{
+  "name" : "DCA Certificate",
+  "version" : "0.1",
+  "description" : "Website identity verification",
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+     "default_icon": "dca-logo.png",
+     "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
